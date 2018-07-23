@@ -1,0 +1,159 @@
+header, section, footer, aside, nav, main, article, figure, li a, input, textarea {
+    display: block; }
+
+
+
+/* nav setup */
+nav   {font-weight: bold; 
+        padding: 0;
+        float: left;
+        border: 1px solid black;
+        background-color: #333333;
+        text-shadow: 2px 2px black;
+        }
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+
+li {
+    float: down;
+}
+
+li a {
+    border: .5px solid black;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 23px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    text-shadow: 2px 2px black;}
+
+
+/*nav setup end*/
+
+
+/*header setup w/ picture*/
+
+header {background-image: url(images/banner.jpg);
+        background-position: center;
+        max-width: 1207px;
+        background-blend-mode:hue;
+
+    margin-bottom: 3px;
+    margin-top: 50px;
+    margin-right: 0px;
+    height: 180px;
+    
+
+
+
+
+        }
+
+header {}
+
+h2  {text-align: left;
+    font-size: 4em;
+    color: red;
+    text-shadow: 2px 2px gray;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  
+
+
+
+
+
+}
+
+/*header setup w/ picture end*/
+
+#wrapper {  
+            width: 900px;
+            margin-left: 205px;
+            border-left-width: 10px;
+            height: 600px;
+            margin-top: 3px;}
+        
+body { position:fixed; 
+        left: 150px;}
+main {
+    margin-left: 205px;
+    width: 1001px;
+    max-height: auto;
+    height: 601px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+
+
+    }
+     
+   
+/*background picture start*/
+html    {background-image: url(images/background.jpg);
+        background-repeat: no-repeat;}
+
+        
+
+/*background picture end*/
+
+
+
+
+
+img {border: solid black 1px;}
+
+
+
+/*customization for footer*/
+footer {border: solid black 2px;
+        background-color: #333333;
+        text-align: center;
+        text-shadow: 2px 2px black;
+        color: red;}
+
+
+
+/* contact page form* begin*/
+
+form {}
+label {}
+p {}
+
+input, textarea {margin-bottom: 1em;}
+
+#mySubmit {margin-left: 3em;}
+
+
+
+/* contact page form* end*/
+
+
+#body { 
+        font-size: 15px;
+        font-weight: bold;}
+
+video { margin-left: 1em;
+
+        }
+
+.main {background-color: white;
+    margin-left: 205px;
+    width: 1001px;
+    max-height: auto;
+    height: 601px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, .8);
+       }
+
+/*patch notes style*/
+#headerpatch {text-align: center; font-size: 3em}
+#patchtitle {margin-left: 5em; margin-bottom: 5px; font-size: 15px;}
+#patchnotes {margin-left: 5em; margin-right: 3em;}
